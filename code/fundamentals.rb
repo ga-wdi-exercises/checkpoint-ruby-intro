@@ -8,8 +8,16 @@ puts message
 
 # 1. Create a variable `my_favorite_animal` and assign it the name of your favorite animal
 
+puts my_favorite_animal = "Tiger"
+
 # 2. Print "My favorite animal is <your-favorite-animal>" by printing a string with `my_favorite_animal` interpolated into it.
+
+print "My favorite animal is" + "my_favorite_animal"
 
 # 3. Write a method `make_noise` which prints the string "BANG!"
 
+make_noise = print ="BANG!"
+
 # 4. Write a method `count_down` which takes one argument and prints every number from it to 0. Assume `count_down` will only be called with positive integers
+
+count_down = get print
