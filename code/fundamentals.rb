@@ -29,3 +29,5 @@ end
         break
     end
 end
+
+#When I ran this in pry, it didn't seem to register it as a function when I called the method and added an argument
