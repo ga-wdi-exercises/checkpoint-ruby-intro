@@ -17,4 +17,8 @@ def make_noise
   puts "BANG!"
 end
 # 4. Write a method `count_down` which takes one argument and prints every number from it to 0. Assume `count_down` will only be called with positive integers
-def
+def count_down(num)
+while num >=0
+  puts num += 1
+end
+end
