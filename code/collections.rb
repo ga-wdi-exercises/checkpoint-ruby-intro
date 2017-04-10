@@ -1,6 +1,7 @@
 # collections
 
 # 1. Create a variable `point1` and assign it a hash representing a coordinate with keys `:x` and `:y` which have integer values
+ point1 = {:x => 1, :y => 2} 
 
 # 2. Print the y value
 
@@ -12,4 +13,3 @@
 
 # 6. Create an array and call it `distances_from_origin` by mapping over the points with the `.map` method and returning the distance between the point and origin, (0,0).
 # Distance from origin can be found with the equation `distance_from_origin = Math.sqrt(x_val ** 2 + y_val ** 2)`
-
