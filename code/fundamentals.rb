@@ -21,7 +21,7 @@ end
 make_noise
 # 4. Write a method `count_down` which takes one argument and prints every number from it to 0. Assume `count_down` will only be called with positive integers
 def count_down(number)
-  while number >= o
+  while number >= 0
     puts number
     numeber -= 1
   end
