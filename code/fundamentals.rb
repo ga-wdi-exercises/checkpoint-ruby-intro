@@ -24,14 +24,15 @@ puts make_noise
 
 #something like
 
-# def count_down
+def count_down
 	numbers = [1, 2, 3, 4, 5]
-	numbers.length.do 
-		puts numbers[index]
+	numbers.length do |number|
+		puts number
 		# index -=
 	end
-#end
+end
 		
 	
 
-	# count_down
+	puts count_down
+
