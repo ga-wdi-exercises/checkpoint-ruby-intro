@@ -26,9 +26,10 @@ puts make_noise
 
 def count_down
 	numbers = [1, 2, 3, 4, 5]
-	numbers.length do |number|
-		puts number
-		# index -=
+	index = numbers.length
+	numbers.each do |number|
+		puts number[index]
+		index -=
 	end
 end
 		
