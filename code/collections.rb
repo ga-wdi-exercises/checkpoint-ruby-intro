@@ -8,10 +8,21 @@ point1 = {
 # 2. Print the y value
 point[:y]
 # 3. Make an array, `points`, that includes `point1` and two more points (`points.length` should be 3)
+point2 = {
+  x:3,
+  y:4,
+}
+
+point3= {
+  x:7,
+  y:6,
+}
 
 points= ["point1", "point2", "point3"]
 # 4. Use `.each` to print the y value of each point
-
+points.each do |y|
+  puts :y
+end
 # 5. Use `.each_with_index` and string interpolation to print for each point "The point at index <index> has coordinates {x: <x-val>, y: <y-val>}"
 
 # 6. Create an array and call it `distances_from_origin` by mapping over the points with the `.map` method and returning the distance between the point and origin, (0,0).
