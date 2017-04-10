@@ -13,3 +13,10 @@ puts message
 # 3. Write a method `make_noise` which prints the string "BANG!"
 
 # 4. Write a method `count_down` which takes one argument and prints every number from it to 0. Assume `count_down` will only be called with positive integers
+
+
+my_favorite_animal = "Lion"
+
+puts "My favorite animal is : " + my_favorite_animal
+
+
