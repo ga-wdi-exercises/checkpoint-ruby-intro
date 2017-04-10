@@ -4,7 +4,7 @@
 
 message = "Be sure to run your code regularly to see that it works. Keep trying if you get an error. Read the error carefully and remember that the line number of the error can be later than the mistake in the code. If you are stumped by an error, as a comment, add the error and your interpretation of it after the question. Be sure to also comment out your code so that when you run the code on subsequent sessions, you don't get noise from those errors."
 
-puts message
+puts message.
 
 # 1. Create a variable `my_favorite_animal` and assign it the name of your favorite animal
   'my_favorite_animal' = ['animal']

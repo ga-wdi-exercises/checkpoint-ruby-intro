@@ -4,7 +4,7 @@
 
 # 2. Print the y value
 
-# 3. Make an array, `points`, that includes `point1` and two more points (`points.length` should be 3)
+# 3. Make an array, `points`, that includes `point1` and two more points (`points.length` should be 3).
 
 # 4. Use `.each` to print the y value of each point
 
