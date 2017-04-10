@@ -7,7 +7,9 @@ message = "Be sure to run your code regularly to see that it works. Keep trying 
 puts message
 
 # 1. Create a variable `my_favorite_animal` and assign it the name of your favorite animal
+my_favorite_animal = "Crow"
 
+puts my_favorite_animal
 # 2. Print "My favorite animal is <your-favorite-animal>" by printing a string with `my_favorite_animal` interpolated into it.
 
 # 3. Write a method `make_noise` which prints the string "BANG!"
