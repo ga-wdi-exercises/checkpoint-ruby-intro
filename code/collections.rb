@@ -24,6 +24,6 @@ points.each do |y|
   puts :y
 end
 # 5. Use `.each_with_index` and string interpolation to print for each point "The point at index <index> has coordinates {x: <x-val>, y: <y-val>}"
-
+points.each_with_index { |point, index| puts "The point at index #{index} has coordinates #{:x}, #{:y}"}
 # 6. Create an array and call it `distances_from_origin` by mapping over the points with the `.map` method and returning the distance between the point and origin, (0,0).
 # Distance from origin can be found with the equation `distance_from_origin = Math.sqrt(x_val ** 2 + y_val ** 2)`
