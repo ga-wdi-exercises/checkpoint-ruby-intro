@@ -8,6 +8,7 @@ puts point1[:y]
 
 # 3. Make an array, `points`, that includes `point1` and two more points (`points.length` should be 3)
 points = [point1, {x: 34, y: 12}, {x: 23, y: 5}]
+puts "The length of points is #{points.length}"
 
 # 4. Use `.each` to print the y value of each point
 points.each do |item|
