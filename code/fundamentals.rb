@@ -8,8 +8,26 @@ puts message
 
 # 1. Create a variable `my_favorite_animal` and assign it the name of your favorite animal
 
+my_favorite_animal = "panda"
+
 # 2. Print "My favorite animal is <your-favorite-animal>" by printing a string with `my_favorite_animal` interpolated into it.
+
+puts "My favorite animal is a #{my_favorite_animal}."
 
 # 3. Write a method `make_noise` which prints the string "BANG!"
 
+def make_noise
+  puts "Bang!"
+end
+
 # 4. Write a method `count_down` which takes one argument and prints every number from it to 0. Assume `count_down` will only be called with positive integers
+ def count_down(i)
+    loop do
+      i -= 1
+      puts i
+      if i == 0
+        break
+    end
+end
+
+#When I ran this in pry, it didn't seem to register it as a function when I called the method and added an argument
