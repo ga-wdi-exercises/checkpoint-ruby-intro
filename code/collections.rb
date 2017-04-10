@@ -13,3 +13,30 @@
 # 6. Create an array and call it `distances_from_origin` by mapping over the points with the `.map` method and returning the distance between the point and origin, (0,0).
 # Distance from origin can be found with the equation `distance_from_origin = Math.sqrt(x_val ** 2 + y_val ** 2)`
 
+
+#1
+
+point1 = { x: 1, y:2}
+
+#2 
+
+puts point1[:y]
+
+#3 
+points = [
+	point1 = {x: 1, y:2},
+	point2 =  {x: 3, y:7},
+	point3  = {x: 7, y:9},
+]
+
+#4
+
+points.each {|pont| puts pont}
+
+#5
+
+points.each_with_index {|pont, index| puts pont puts index}
+
+#6 
+
+
